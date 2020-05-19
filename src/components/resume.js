@@ -25,7 +25,7 @@ class Resume extends Component {
       <div className='resume-color'>
         <div className='resume-pdf-viewer'>
           <Document
-            file="website-app/resume_april_1_2020.pdf"
+            file="./resume_april_1_2020.pdf"
             onLoadSuccess={this.onDocumentLoadSuccess}
             onLoadError={console.error}
           >

@@ -4,11 +4,14 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
-
+import { Helmet } from 'react-helmet'
 
 function App() {
   return (
     <div className="demo-big-content">
+    <Helmet>
+      <title>Rafael Fueyo-Gomez</title>
+    </Helmet>
     <Layout>
       <Header className="header-color" title="Rafael Fueyo-Gomez" scroll>
           <Navigation className="header-navigation">
